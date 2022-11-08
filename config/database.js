@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
 
 const db = () => {
+  console.log(process.env.MONGO_URI);
   mongoose
-    .connect(process.env.MONGO_URI, {
+    .connect('mongodb+srv://om-javir-0704:omjavir@cluster0.mspcams.mongodb.net/?retryWrites=true&w=majority', {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
