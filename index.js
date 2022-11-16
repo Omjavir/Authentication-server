@@ -5,7 +5,7 @@ const db = require('./config/database')
 const userRoutes = require('./routes/userRoutes')
 const quoteRoutes = require('./routes/userRoutes')
 // const path = require('path')
-require('dotenv').config();
+// require('dotenv').config();
 // const { isUserAuthenticated } = require('./middleware/auth')
 
 // MIDDLEWARE
